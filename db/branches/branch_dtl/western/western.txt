@@ -1,0 +1,12 @@
+We have 6 branches based in the central province.
+
+
+WA001 Wariyapola
+Nk002 Nikaweratiya
+PA003 Pannala
+GM004 Galgamuwa
+GG005 Gomugomuwa
+PG006 Polgahawela
+
+
+If you want more details tell me branch code or city...

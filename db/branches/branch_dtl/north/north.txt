@@ -1,0 +1,11 @@
+We have 5 branches based in the North province.
+
+AP001  Anuradhapura
+BL002  Bulnewa
+GL003  Galnewa
+GW004  Ganewalpola
+MT005  Madatugama
+
+
+
+If you want more details tell me branch code or city...

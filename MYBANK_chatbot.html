@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>WELCOME TO MYBANKING CHAT BOT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="botcss.css">
+ 
+</head>
+<body>
+  <div class="chat-container" id="chatContainer">
+
+    <div class="head-text">
+   
+        <img src="img/bank.png" alt="">
+        <h2>MYBANKING HELP</h2>
+        <input type="button" class="refresh-btn" onClick="window.location.reload(true)">
+    </div>
+    <div class="head-box"></div>
+    <div class="bot-message"> Welcome to MYBANKING! How can I assist you today?</div>
+  
+
+  </div>
+  
+  <div class="bottom-input"> 
+  <div class="input-container">
+    <input type="text"  autofocus="autofocus" class="user-input" id="userInput" placeholder="Text Here....." />
+    <input id="submit" class ="submit-btn" type="submit" value="" onclick="sendMessage()" />
+  </div>
+</div>
+
+ 
+</body>
+<script src="botjs.js"></script>
+</html>

@@ -1,0 +1,7 @@
+We have 3 branches based in the Eastern province.
+
+AP001 Ampara
+BT002 Batticaloa
+TM003 Trincomalee
+
+If you want more details tell me branch code or city...

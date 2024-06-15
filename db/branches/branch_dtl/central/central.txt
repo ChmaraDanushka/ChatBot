@@ -1,0 +1,14 @@
+We have above branches based  in central province
+
+KY001 Kandy
+DG002 Digana
+KT003 Katugasthota
+MP004 Nawalapitiya
+MT005 Mathale
+UW006 Ukuwela
+NW007 Nuwaraeliya
+BT008 Bagawanthalawa
+DG009 Dayagama
+
+If you want more details tell me branch code or city...
+

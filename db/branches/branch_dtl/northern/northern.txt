@@ -1,0 +1,10 @@
+We have 6 branches based in the Northern province.
+	
+JF001 Jaffna
+KN002 Kilinochchi
+MN003 Mannar
+VN004 Vavuniya
+MA005 Mullativu
+AM006 Alambil
+
+If you want more details tell me branch code or city...

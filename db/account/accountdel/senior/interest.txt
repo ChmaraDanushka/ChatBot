@@ -1,0 +1,8 @@
+Interest rates
+Interest Rate (p.a.)
+
+Annual Effective Rate
+
+Udara Savings - Int paid monthly	3.00	3.04
+Udara Fixed Deposits - Int paid monthly	13.60	14.48
+Udara Fixed Deposits - Int at maturity	14.50	14.50

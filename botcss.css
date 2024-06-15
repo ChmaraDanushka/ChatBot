@@ -1,0 +1,198 @@
+
+body {
+font-family: 'Varela Round', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(61, 61, 61);
+}
+
+.head-text{
+    height: 80px;
+    width: 392px;
+    margin-left: 3px;
+    margin-top: 3px;
+    background-image: linear-gradient(to right, #006eff , #96a9fd);
+    margin-bottom: 10%;
+    overflow: hidden;
+    position: fixed;
+    border-radius: 21px;
+}
+
+.head-box{
+  height: 80px;
+    width: 30%;
+}
+
+.head-text img{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+}
+
+.head-text h2{
+   
+    margin-left: 15px;
+    margin-top: 28px;
+    float: left;
+    color: white;
+}
+
+.head-text .refresh-btn{
+    height: 30px;
+    width: 30px;
+   background: url(img/refresh.png);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   float: right;
+   margin-top: 23px;
+   margin-right: 20px;
+   border: none;
+   transition: 0.3s;
+   cursor: pointer;
+
+}
+
+.head-text .refresh-btn:hover{
+    transform: rotate(380deg);
+}
+
+.chat-container {
+  width: 400px;
+  height: 500px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  margin: auto;
+  border-radius: 20px;
+    border: none;
+    background-color: white;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.user-message {
+  background-color: #d0d8f8;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  margin-left: 165px;
+  width: 200px;
+  border-radius: 10px;
+ 
+  
+}
+
+.bot-message {
+  background-color: #eeeeee;
+  padding: 5px 10px;
+  margin-top: -10px;
+  color: rgb(0, 0, 0);
+  width: 280px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  animation-name: top;
+  overflow: hidden;
+
+}
+
+.input-container {
+  margin-top: 12px;
+  margin-left: 5%;
+  float: left;
+
+  
+  
+  
+}
+
+.input-container input[type="text"] {
+  width: 300px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.input-container input[type="submit"] {
+  padding: 5px 10px;
+  font-size: 14px;
+ 
+}
+
+.user-input{
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+}
+
+.bottom-input{
+    height: 50px;
+    width: 400px;
+    background-color: #ffffff;
+   margin: auto;
+    border-radius: 20px;
+}
+
+.submit-btn{
+    background: url(img/chatbot.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 33px;
+    width: 10%;
+    border: none;
+    float: right;
+    margin-right: -10%;
+    margin-top: -3px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.submit-btn:hover{
+    height: 35px;
+    width: 11%;
+}
+
+    
+@keyframes fadeIn {
+from {
+opacity: 0;
+
+}
+to {
+opacity: 1;
+
+}
+}
+
+@keyframes bounceUpDown {
+0% {
+transform: translateY(0);
+}
+50% {
+transform: translateY(5px);
+}
+100% {
+transform: translateY(0);
+}
+}
+
+.bot-message {
+animation: fadeIn 0.5s ease, bounceUpDown 0.7s ease-in-out;
+}
+.head-text{
+animation: fadeIn 0.5s ease, bounceUpDown 0.5s ease-in-out;
+}
+
+.dia{
+margin-top: 7px;
+float: left;
+}
+.dia-ans{
+height: 100%;
+width: 180px;
+margin-left: 25px;
+margin-top: 8px;
+background-color: ;
+}
